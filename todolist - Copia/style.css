@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Euclid Circular A', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(115, 0, 255);
+    color: whitesmoke;
+}
+
+
+.butt{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 40px 0px;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;
+
+}
+
+
+.NewT{
+    padding: 5px 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 10px;
+    color: whitesmoke;
+    background-color: rgb(115, 0, 255);
+    border-color: rgb(51, 13, 98);
+
+}
+
+
+.iptTxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+.iptTxt > input{
+    height:45px;
+    width: 300px;
+    font-size: 24px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2.5px solid rgb(51, 13, 98);;
+    border-color: rgb(51, 13, 98);
+}
+
+
+.taskbox{   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+.boxes{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    min-height: 200px;
+    width: 350px;
+    color: rgb(26, 26, 26);
+    margin: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px 5px rgb(0, 0, 0);
+}
+
+
+.boxes > p{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.boxes > h6{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.boxes > h3{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.boxesC{
+    background-color: rgb(210, 187, 227);
+    border-radius: 30px;
+    min-height: 200px;
+    width: 350px;
+    color: rgb(26, 26, 26);
+    margin: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px 5px rgb(0, 0, 0);
+}
+
+.boxesC > p{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.boxesC > h6{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.boxesC > h3{
+    display: block;
+    padding: 0px 20px;
+    max-width: 300px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.buttBox{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 10px;
+    margin: 10px 10px 10px 0px;
+    float: right;
+    color: whitesmoke;
+    background-color: rgb(115, 0, 255);
+    border-color: rgb(51, 13, 98);
+}
+
+.txt{
+    color: whitesmoke;
+    padding: 10px 30px
+    
+}
+
+.box{
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 10px 5px rgba(241, 216, 255, 0.039);
+}
