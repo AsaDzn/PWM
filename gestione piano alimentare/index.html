@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet manager</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header><h1>Diet manager</h1></header>
+    <nav><h3>Storico pasti</h3><h3>Piano alimentare</h3><h3>Piano sportivo</h3></nav>
+    <!-- <div id="bodypage" class="bodypage"><p>Benvenuto nel tuo gestore di piano alimentare<br>Scegli uno delle tre categorie.</p></div> -->
+    <div id="piano" class="piano">
+        <form>
+            <p>
+            <input type="text" placeholder="Scrivere alimento" class="insert" id="insert">
+            <input type="text" placeholder="Grammi" class="insertG" id="insertG">
+            <select id="scelta" name="Categoria" class="scelta">
+                <option value="" disabled selected>Scegli un'opzione</option>
+                <option value="Colazione">Colazione</option>
+                <option value="Spuntino">Spuntino</option>
+                <option value="Pranzo">Pranzo</option>
+                <option value="Cena">Cena</option>
+              </select>
+            </p>
+            <p>
+                <button class="bottoneInserisciPasto">Inserire pasto</button></p>
+        </form>
+    </div>
+    
+    </div>
+    <div id="Colazione" class="contenitorePasti">
+        <h4>Colazioni:</h4>
+    </div>
+    <div id="Spuntino" class="contenitorePasti">
+        <h4>Spuntini:</h4>
+    </div>
+    <div id="Pranzo" class="contenitorePasti">
+        <h4>Pranzi:</h4>
+    </div>
+    <div id="Cena" class="contenitorePasti">
+        <h4>Cene:</h4>
+    </div>
+    </div>
+    <div id="allenamento">
+
+    </div>
+    <div id="storico">
+
+    </div>
+</body>
+</html>
